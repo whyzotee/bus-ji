@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="flex flex-col space-y-4">
+    <div class="bg-gray-200 p-3 rounded text-center text-sm">Code: XXS-9444-01</div>
+
+    <div class="bg-red-200 p-4 rounded space-y-2">
+        <div class="flex justify-between items-center">
+            <div>
+                <p class="text-sm font-bold">07:00 AM</p>
+                <p class="text-xs text-gray-600">Departure</p>
+            </div>
+            <div>
+                <p class="text-sm font-bold">Lorem City</p>
+                <p class="text-xs text-gray-600">Arrival</p>
+            </div>
+        </div>
+        <div class="flex justify-between text-xs text-gray-600">
+            <span>Bus Number: 000-01</span>
+            <span>Driver: Johnny</span>
+        </div>
+        <div class="flex justify-between items-center">
+            <span>2 Passengers</span>
+            <span class="font-bold">$130 / person</span>
+        </div>
+        <button class="bg-blue-500 text-white w-full py-2 rounded">Payment</button>
+    </div>
+</div>
+{% endblock %}

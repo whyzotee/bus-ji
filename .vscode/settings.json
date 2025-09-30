@@ -1,0 +1,10 @@
+{
+  "editor.rulers": [120],
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "files.exclude": {
+    "**/venv": true,
+    "**/__pycache__": true,
+    "**/node_modules": true
+  }
+}
