@@ -1,6 +1,8 @@
-from .bus_system import BusStopNode, BusJiStation
+from .bus_system import BusStopNode, RouteHistory, RouteTreeNode, BusJiStation
 
 __all__ = [
     "BusStopNode",
+    "RouteHistory",
+    "RouteTreeNode",
     "BusJiStation",
 ]
