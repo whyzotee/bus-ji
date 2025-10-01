@@ -2,7 +2,7 @@ import os
 import curses
 
 from curses import wrapper
-from core import BusJiStation
+from src.core import BusJiStation
 
 class MenuOption:
     ADD_ROUTE = "Add RoutRoute"
